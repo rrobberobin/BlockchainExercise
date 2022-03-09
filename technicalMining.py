@@ -9,7 +9,7 @@ dataPrev = data + prev
 input = blockNumber + str(nonce).encode() + dataPrev
 hash = hashlib.sha256(input).hexdigest()
 
-difficulty = 7  #notation is different because of the + "1"
+difficulty = 9  #notation is different because of the + "1"
 zeros = "0" * difficulty + "1"
 
 try:
