@@ -1,7 +1,7 @@
 import hashlib
 
 blockNumber = b"1"
-nonce = 23_082_647_275      #2_241_619_641
+nonce = 123_474_536_177      #2_241_619_641
 data = b"S175910 ROBIN PERALA 032022"
 prev = b"0000000000000000000000000000000000000000000000000000000000000000"
 dataPrev = data + prev
@@ -38,10 +38,10 @@ finally:
 
 
 
-#1_647_315      Correct zeroes = 6      #000000a02797159f685c67ffd91e1e9b62d8662ce86d3edc2c33b27c553f19fb
-#988_484_189    Correct zeroes = 7      #00000008ad4ba060e02cf384520242e807dfd6d51352e0a7bc44eb26d57dad37
-#1_592_497_232  Correct zeroes = 8      #00000000abb21c362a09486485bd3eb108b81b97cc0261727b2159aa46fd4b01
-
+#1_647_315          Correct zeroes = 6      000000a02797159f685c67ffd91e1e9b62d8662ce86d3edc2c33b27c553f19fb
+#988_484_189        Correct zeroes = 7      00000008ad4ba060e02cf384520242e807dfd6d51352e0a7bc44eb26d57dad37
+#1_592_497_232      Correct zeroes = 8      00000000abb21c362a09486485bd3eb108b81b97cc0261727b2159aa46fd4b01
+#123_474_536_177    Correct zeroes = 9      0000000006a9134f031d49bc30c9a9e920a9560191304ffdb9f8d032c98ef8ea
 
 
 #While-loop
@@ -66,6 +66,8 @@ finally:
 
 
 
-#Wrong
+
+
+#Wrong - using update function
 #725_532_937    Correct zeroes = 7
 #2_280_070_841  Correct zeroes = 9      #00000000059e01237cac90500ed5ab6b7f31ac238c1a7464ede7aeee6ee8272c
