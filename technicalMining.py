@@ -2,7 +2,7 @@ import hashlib
 
 blockNumber = b"1"
 nonce = 123_474_536_177      #2_241_619_641
-data = b"S175910 ROBIN PERALA 032022"
+data = b"032022"
 prev = b"0000000000000000000000000000000000000000000000000000000000000000"
 dataPrev = data + prev
 
