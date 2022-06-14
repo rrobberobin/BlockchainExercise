@@ -1,1 +1,1 @@
-Demo for mining a nonce
+Demonstration exercise for mining a nonce
